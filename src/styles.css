@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap");
+
+.App {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  background: #210852;
+  background-size: 400%;
+}
+
+h1 {
+  color: white;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  border-style: double;
+}
+
+.row:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+.row:nth-child(odd) {
+  background-color: rgb(68, 228, 188);
+}
+
+.data {
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.highschool {
+  color: #f3b778;
+}
